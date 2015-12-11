@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/spinnerImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:layout_margin="10dip" />
+
+    <TextView
+        android:id="@+id/spinnerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:textColor="#000000"
+        android:textIsSelectable="true" />
+
+</LinearLayout><!-- From: file:/home/learn-android/Studio_Project/RetailwareCloudSurvey/app/src/main/res/layout/spinner_value_layout.xml -->

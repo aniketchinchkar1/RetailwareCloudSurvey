@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreenbg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:paddingBottom="20dp" >
+
+            <TextView
+                android:id="@+id/lblImeiNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Imei No"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/txtImeiNo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/edit_text_color"
+                android:inputType="textNoSuggestions"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@null" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblCreationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Creation Date"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/txtCreationDate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/edit_text_color"
+                android:inputType="textNoSuggestions"
+                android:maxLength="15"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@null" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblExpiryDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Expiry Date"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/txtExpiryDate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/edit_text_color"
+               android:inputType="textNoSuggestions"
+                android:maxLength="15"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@null" >
+            </EditText>
+         
+            
+           </LinearLayout>
+   
+</LinearLayout><!-- From: file:/home/learn-android/Studio_Project/RetailwareCloudSurvey/app/src/main/res/layout/activity_setting.xml -->

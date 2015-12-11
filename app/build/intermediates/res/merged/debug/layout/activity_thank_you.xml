@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thanku"
+    android:orientation="vertical"
+    tools:context="com.cloudservey.ThankYou" >
+
+    <TextView
+        android:id="@+id/tvThankuMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.01"
+        android:text="Thank you"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+</LinearLayout><!-- From: file:/home/learn-android/Studio_Project/RetailwareCloudSurvey/app/src/main/res/layout/activity_thank_you.xml -->

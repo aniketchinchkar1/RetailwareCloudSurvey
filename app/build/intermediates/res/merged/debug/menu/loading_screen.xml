@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cloudservey.LoadingScreen" >
+
+ 
+
+</menu>
+<!-- From: file:/home/learn-android/Studio_Project/RetailwareCloudSurvey/app/src/main/res/menu/loading_screen.xml -->

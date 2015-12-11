@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="actionbar_title">#FFFFFF</color>
+    <color name="actionbar_separator">#3A5FCD</color>
+    <color name="actionbar_background_start">#1F73AB</color>
+    <color name="actionbar_background_end">#4DA0D7</color>
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+    <color name="white">#FFFFFF</color>
+    <color name="list_background_color">#6B6B6B</color>
+    <color name="black">#000000</color>
+    <color name="background">#000011</color>
+    <color name="TableOFF">#00FF00</color>
+    <color name="TableON">#FF0000</color>
+    <color name="chocklate_color_background">#2E2E2E</color>
+    <!-- <color name="blue_devider">#1F73AB</color> -->
+    <color name="blue_devider">#3156A4</color>
+    <color name="redBackground">#C60202</color>
+    <color name="list_row1">#575756</color>
+    <color name="list_row2">#30302F</color>
+    <color name="list_text">#BDBDBD</color>
+    <color name="edit_text_color">#2E2E2E</color>
+    <color name="yello">#FFFF00</color>
+    <color name="progress_background">#3156A4</color>
+    <color name="orange">#E56717</color>
+    <color name="pink">#FF00FF</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#2EFE64</color>
+    <color name="light_blue">#00FFFF</color>
+    <color name="blue">#0000FF</color>
+
+</resources>

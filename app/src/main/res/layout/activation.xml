@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activation_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreenbg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:paddingBottom="20dp" >
+
+                        <TextView
+                android:id="@+id/lblName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/edit_text_color"
+                android:inputType="textNoSuggestions"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@null" >
+
+                <requestFocus />
+            </EditText>
+            
+            
+            <TextView
+                android:id="@+id/lblEmailID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/email"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/txtEmailID"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/edit_text_color"
+                android:inputType="textNoSuggestions"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@null" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/password"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/edit_text_color"
+                android:inputType="textPassword"
+                android:maxLength="15"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@null" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblInstruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/Instruction"
+                android:textColor="@color/black"
+                android:textSize="@dimen/note_text" />
+
+            <Button
+                android:id="@+id/btnActivate"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/margin_30dp"
+                android:layout_marginRight="@dimen/margin_30dp"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/buttons"
+                android:paddingBottom="@dimen/margin_5dp"
+                android:text="@string/activate"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
